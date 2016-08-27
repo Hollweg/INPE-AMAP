@@ -2,6 +2,7 @@
 
 ## A proposta
 
+Este software foi desenvolvido ao longo do meu período como bolsista IT1-A do CNPQ, de 2014 a 2015. </br>
 Software desenvolvido para o **INPE** (Instituto Nacional de Pesquisas Espaciais), a fim de manipular dados de **estações de GPS e satélites**, e facilitar a inserção em softwares que tenham como entrada arquivos .txt. 
 
 Tendo em vista que os arquivos raw provenientes de observações muitas vezes contém uma **grande quantidade de dados (100 MB+) é inviável a manipulação desses dados manualmente**, tornando-os apropriados para o uso em certos softwares de análise. </br> 
