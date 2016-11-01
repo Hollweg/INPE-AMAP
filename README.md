@@ -1,33 +1,33 @@
-# INPE Sattelite Data Manipulation
+#INPE Sattelite Data Manipulation
 
-## A proposta
+##The purpose
 
-Este software foi desenvolvido ao longo do meu período como bolsista IT1-A do CNPQ, de 2014 a 2015. </br>
-Software desenvolvido para o **INPE** (Instituto Nacional de Pesquisas Espaciais), a fim de manipular dados de **estações de GPS e satélites**, e facilitar a inserção em softwares que tenham como entrada arquivos .txt. 
+This software was developed during my period as a **fellow student in INPE (2014-2015), in the middle of my Electrical Engineering bachelor.** </br>
+The software was developed to INPE (National Institute for Space Research).</br>
+It main idea was **manipulate data from GPS sattelites and GPS stations**, making easy the insertion of data in different statystical softwares, like SGEMs. </br>
 
-Tendo em vista que os arquivos raw provenientes de observações muitas vezes contém uma **grande quantidade de dados (100 MB+) é inviável a manipulação desses dados manualmente**, tornando-os apropriados para o uso em certos softwares de análise. </br> 
+As the raw data provenient by observation source in most cases contains a large quantity of data (100MB+) it is unable to manipulate data manually. </br> 
+In this way it was developed this algorithm to make easy the .txt files insertion in different softwares, allowing corrupt elements filtering, like wrong data read or errors during acquisition data. 
 
-Portanto, para isso, foi desenvolvido esse algoritmo que facilita a inserção de arquivos .txt e filtra elementos indesejados, bem como dados indisponíveis ou erros de aquisição e leitura. </br> 
+##Utilization
 
-## Utilização
+The algorithm allows user to choose a data source (GPS stations or GPS sattelites) and how it is desired to be the output.txt file. </br>
+In addition, for the software right functioning it is needed that in the same folder that contains the .c file exist a folder called _InFiles/_ with all brute data to be filtered.
 
-O algoritmo permite ao usuário escolher a fonte de dados utilizada (estações de GPS ou satélites) e como deseja que o arquivo output.txt seja criado. </br>
-Para utilização do algoritmo é necessário que na mesma pasta onde esteja o arquivo .c haja uma pasta de nome _InFiles/_ contendo os arquivos brutosa serem filtrados. 
+The software has a simple graphic interface, allowing user to select the right option according it objective.
 
-O código apresenta uma interface gráfica simples, permitindo ao usuário selecionar a opção que seja mais adequada, através do teclado e uma simples interface gráfica. 
-
-O algoritmo facilita a inserção de dados em 2 softwares bastante comuns no INPE: 
+The algorithm makes it easy data insertion in 2 different software used in INPE: 
 
 1. SGEMS (http://sgems.sourceforge.net/?q=node/77) </br>
 2. Octave (https://www.gnu.org/software/octave/)
 
-## Direitos
+##Copyrights
 
-**Software Livre** para utilização; </br>
-Entretanto, caso isso seja feito, **referenciar o autor**.
+**The software can be reproduced.** </br>
+However, **maintain credits to the author.** :) 
 
 
 Enjoy!
 
-Hollweg
+**Hollweg**
 
