@@ -1,6 +1,6 @@
-#INPE Sattelite Data Manipulation
+# INPE Sattelite Data Manipulation
 
-##The purpose
+## The purpose
 
 This software was developed during my period as a **fellow student in INPE (2014-2015), in the middle of my Electrical Engineering bachelor.** 
 
@@ -11,7 +11,7 @@ As the raw data provenient by observation source in most cases contains a large 
 
 In this way it was developed this algorithm to facilitate .txt files insertion in different softwares, allowing corrupt elements filtering, like wrong data read or errors during acquisition data, among others.
 
-##Utilization
+## Utilization
 
 The algorithm allows user to choose a data source (GPS stations or GPS sattelites) and how it is desired to be the output.txt file. 
 
@@ -24,7 +24,7 @@ The algorithm makes easy data insertion in 2 different software used in INPE:
 1. SGEMS (http://sgems.sourceforge.net/?q=node/77) </br>
 2. Octave (https://www.gnu.org/software/octave/)
 
-##Copyrights
+## Copyrights
 
 **The software can be reproduced.** </br>
 However, please, **maintain credits to the author.** :) 
